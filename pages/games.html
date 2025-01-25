@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="../styles/gameStyles.css">
+</head>
+<body>
+
+  
+  <div class="game-container">
+    <h1>Jogo da Velha</h1>
+    <p id="gameStatus">Aguardando outro jogador...</p>
+    
+    <div id="gameBoard" class="game-board">
+      <!-- As células do jogo -->
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+  
+    <div id="gameOptions">
+      <button id="startGameBtn">Iniciar Jogo</button>
+      <p id="gameIdDisplay" style="margin-top: 10px; display: none;">ID do Jogo: <span id="gameId"></span></p>
+      <div id="joinGameContainer" style="margin-top: 10px;">
+        <input type="text" id="joinGameInput" placeholder="Digite o ID do Jogo">
+        <button id="joinGameBtn">Entrar no Jogo</button>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.2.0/firebase-database.js"></script>
+  <script type="module" src="../scripts/gameScripts.js"></script>
+
+
+
+
+
+
+</body>
+</html>

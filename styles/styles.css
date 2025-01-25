@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    cursor: none; 
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.background-grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    overflow-y: scroll;
+}
+
+.background-grid div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s ease-in-out; 
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    opacity: 1; 
+}
+
+.background-grid div.hidden {
+    opacity: 0; 
+}
+
+@keyframes slideDown {
+    0% {
+        background-position: top center;
+    }
+    100% {
+        background-position: bottom center;
+    }
+}
+
+.content-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Botões de navegação */
+.arrow {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+/* Estilo para o conteúdo dentro da div */
+.content p {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Estilo para o cursor de coração */
+.cursor-heart {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('../imagens/heart.png'); /* Caminho correto para a imagem */
+    background-size: cover;
+    background-position: center;
+    pointer-events: none; /* Para garantir que o coração não interfira nos eventos */
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+}
+
+button {
+    cursor: none; /* Esconde o cursor de mão nos botões */
+}
