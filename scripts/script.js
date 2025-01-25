@@ -19,13 +19,13 @@ const contentList = [
 
 const images = [];
 for (let i = 1; i <= 28; i++) {
-  images.push(`amoreSite/imagens/${i}.jpeg`);
+  images.push(`/imagens/${i}.jpeg`);
 
 }
 
 
 document.getElementById('openPageBtn').addEventListener('click', function() {
-  window.location.href = 'amoreSite/pages/games.html';
+  window.location.href = '/pages/games.html';
 });
 
 const prevBtn = document.getElementById('prevBtn');
