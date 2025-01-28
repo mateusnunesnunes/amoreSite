@@ -34,6 +34,10 @@ document.getElementById('openPageBtn').addEventListener('click', function() {
   window.location.href = 'pages/games.html';
 });
 
+document.getElementById('openPageMemoryBtn').addEventListener('click', function() {
+  window.location.href = 'pages/gamesMemory.html';
+});
+
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 
