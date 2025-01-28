@@ -14,7 +14,9 @@ const contentList = [
   "💖 Feliz primeiro mes de namoro meu amorzinho, eu te amo demais, eu te amo imensamente infimamente para sempre, não tenho palavras para descrever como está sendo uma experiêcia única ter voce nesse 1 mes, que esse 1 mes vire 1 década, 10 décadas, 20 30 40 50 60",
   "Você mudou minha vida de muitas formas, sinto que sou uma pessoa melhor com você, obrigado por me apoiar ser minha melhor amiga e meu amor, eu te amo muito",
   "Espero que todos os nossos sonhos juntos se realizem, saiba que vou lutar muito e me esforçar muito para te fazer feliz, mesmo assim sinto que voce merece muito mais do que eu sou capaz de te dar, mas seguimos tentando até onde você me suportar KKKKKKKKKKKKKKKKKKKKKKKKK",
-  "Cada momento ao seu lado é especial, e sinto muita saudade de você o tempo todo. Quero você para sempre e para a minha vida, espero que não tenha mais a impressão que eu sou um ´GOLPE´ kkkkk, eu te amo de vdd. Fiz uns joguinhos para nós "
+  "Cada momento ao seu lado é especial, e sinto muita saudade de você o tempo todo. Quero você para sempre e para a minha vida, espero que não tenha mais a impressão que eu sou um ´GOLPE´ kkkkk, eu te amo de vdd. Fiz uns joguinhos para nós ",
+  "Te amo imensamente e não tenho dúvidas que é você, vc q é o amor da minha vida",
+  "feliz 1 mês meu amor"
 ];
 
 const images = [];
